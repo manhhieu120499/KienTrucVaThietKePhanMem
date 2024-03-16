@@ -1,0 +1,122 @@
+2024-03-16 11:27:24,720 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[E:\HOCKI6_2023-2024\KIEN_TRUC_VA_THIET_KE_HE_THONG\ActiveMQ\apache-activemq-6.0.1-bin\apache-activemq-6.0.1\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-03-16 11:27:24,737 | INFO  | Starting Persistence Adapter: KahaDBPersistenceAdapter[E:\HOCKI6_2023-2024\KIEN_TRUC_VA_THIET_KE_HE_THONG\ActiveMQ\apache-activemq-6.0.1-bin\apache-activemq-6.0.1\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-03-16 11:27:24,802 | INFO  | Starting KahaDBStore | org.apache.activemq.store.kahadb.KahaDBStore | WrapperSimpleAppMain
+2024-03-16 11:27:24,802 | INFO  | Opening MessageDatabase | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2024-03-16 11:27:25,308 | INFO  | Starting Temp Data Store | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-03-16 11:27:25,308 | INFO  | PListStore:[E:\HOCKI6_2023-2024\KIEN_TRUC_VA_THIET_KE_HE_THONG\ActiveMQ\apache-activemq-6.0.1-bin\apache-activemq-6.0.1\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2024-03-16 11:27:25,317 | INFO  | Starting Job Scheduler Store | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-03-16 11:27:25,317 | INFO  | Persistence Adapter successfully started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-03-16 11:27:25,593 | INFO  | Apache ActiveMQ 6.0.1 (localhost, ID:MSI-MODERN14-51566-1710563245353-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-03-16 11:27:25,658 | INFO  | Listening for connections at: tcp://MSI-MODERN14:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2024-03-16 11:27:25,658 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2024-03-16 11:27:25,674 | INFO  | Listening for connections at: amqp://MSI-MODERN14:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2024-03-16 11:27:25,674 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2024-03-16 11:27:25,684 | INFO  | Listening for connections at: stomp://MSI-MODERN14:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2024-03-16 11:27:25,684 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2024-03-16 11:27:25,690 | INFO  | Listening for connections at: mqtt://MSI-MODERN14:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2024-03-16 11:27:25,698 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2024-03-16 11:27:25,707 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2024-03-16 11:27:25,874 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2024-03-16 11:27:26,252 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@789ea6cd{/,null,STARTING} has uncovered HTTP methods for the following paths: [/] | org.eclipse.jetty.security.SecurityHandler | WrapperSimpleAppMain
+2024-03-16 11:27:26,439 | INFO  | Listening for connections at ws://MSI-MODERN14:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2024-03-16 11:27:26,439 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2024-03-16 11:27:26,439 | INFO  | Apache ActiveMQ 6.0.1 (localhost, ID:MSI-MODERN14-51566-1710563245353-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-03-16 11:27:26,439 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-03-16 11:27:26,464 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: E:\HOCKI6_2023-2024\KIEN_TRUC_VA_THIET_KE_HE_THONG\ActiveMQ\apache-activemq-6.0.1-bin\apache-activemq-6.0.1\bin\win64\..\..\data\kahadb only has 29759 mb of usable space. - resetting to maximum available disk space: 29759 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-03-16 11:27:26,466 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: E:\HOCKI6_2023-2024\KIEN_TRUC_VA_THIET_KE_HE_THONG\ActiveMQ\apache-activemq-6.0.1-bin\apache-activemq-6.0.1\bin\win64\..\..\data only has 29759 mb of usable space. - resetting to maximum available disk space: 29759 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-03-16 11:27:29,150 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2024-03-16 11:27:29,150 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2024-03-16 11:30:18,085 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[E:\HOCKI6_2023-2024\KIEN_TRUC_VA_THIET_KE_HE_THONG\ActiveMQ\apache-activemq-6.0.1-bin\apache-activemq-6.0.1\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-03-16 11:30:18,093 | INFO  | Starting Persistence Adapter: KahaDBPersistenceAdapter[E:\HOCKI6_2023-2024\KIEN_TRUC_VA_THIET_KE_HE_THONG\ActiveMQ\apache-activemq-6.0.1-bin\apache-activemq-6.0.1\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-03-16 11:30:18,150 | INFO  | Starting KahaDBStore | org.apache.activemq.store.kahadb.KahaDBStore | WrapperSimpleAppMain
+2024-03-16 11:30:18,158 | INFO  | Opening MessageDatabase | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2024-03-16 11:30:18,223 | INFO  | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2024-03-16 11:30:18,235 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2024-03-16 11:30:18,235 | INFO  | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2024-03-16 11:30:18,389 | INFO  | Starting Temp Data Store | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-03-16 11:30:18,389 | INFO  | PListStore:[E:\HOCKI6_2023-2024\KIEN_TRUC_VA_THIET_KE_HE_THONG\ActiveMQ\apache-activemq-6.0.1-bin\apache-activemq-6.0.1\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2024-03-16 11:30:18,389 | INFO  | Starting Job Scheduler Store | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-03-16 11:30:18,389 | INFO  | Persistence Adapter successfully started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-03-16 11:30:18,595 | INFO  | Apache ActiveMQ 6.0.1 (localhost, ID:MSI-MODERN14-51626-1710563418405-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-03-16 11:30:18,627 | INFO  | Listening for connections at: tcp://MSI-MODERN14:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2024-03-16 11:30:18,627 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2024-03-16 11:30:18,635 | INFO  | Listening for connections at: amqp://MSI-MODERN14:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2024-03-16 11:30:18,635 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2024-03-16 11:30:18,643 | INFO  | Listening for connections at: stomp://MSI-MODERN14:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2024-03-16 11:30:18,645 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2024-03-16 11:30:18,651 | INFO  | Listening for connections at: mqtt://MSI-MODERN14:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2024-03-16 11:30:18,651 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2024-03-16 11:30:18,660 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2024-03-16 11:30:18,748 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2024-03-16 11:30:18,854 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@5900ff01{/,null,STARTING} has uncovered HTTP methods for the following paths: [/] | org.eclipse.jetty.security.SecurityHandler | WrapperSimpleAppMain
+2024-03-16 11:30:18,919 | INFO  | Listening for connections at ws://MSI-MODERN14:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2024-03-16 11:30:18,919 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2024-03-16 11:30:18,919 | INFO  | Apache ActiveMQ 6.0.1 (localhost, ID:MSI-MODERN14-51626-1710563418405-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-03-16 11:30:18,919 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-03-16 11:30:18,927 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: E:\HOCKI6_2023-2024\KIEN_TRUC_VA_THIET_KE_HE_THONG\ActiveMQ\apache-activemq-6.0.1-bin\apache-activemq-6.0.1\bin\win64\..\..\data\kahadb only has 29759 mb of usable space. - resetting to maximum available disk space: 29759 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-03-16 11:30:18,935 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: E:\HOCKI6_2023-2024\KIEN_TRUC_VA_THIET_KE_HE_THONG\ActiveMQ\apache-activemq-6.0.1-bin\apache-activemq-6.0.1\bin\win64\..\..\data only has 29759 mb of usable space. - resetting to maximum available disk space: 29759 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-03-16 11:30:19,781 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2024-03-16 11:30:19,781 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2024-03-16 12:27:22,863 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[E:\HOCKI6_2023-2024\KIEN_TRUC_VA_THIET_KE_HE_THONG\ActiveMQ\apache-activemq-6.0.1-bin\apache-activemq-6.0.1\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-03-16 12:27:22,870 | INFO  | Starting Persistence Adapter: KahaDBPersistenceAdapter[E:\HOCKI6_2023-2024\KIEN_TRUC_VA_THIET_KE_HE_THONG\ActiveMQ\apache-activemq-6.0.1-bin\apache-activemq-6.0.1\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-03-16 12:27:22,902 | INFO  | Starting KahaDBStore | org.apache.activemq.store.kahadb.KahaDBStore | WrapperSimpleAppMain
+2024-03-16 12:27:22,902 | INFO  | Opening MessageDatabase | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2024-03-16 12:27:22,943 | INFO  | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2024-03-16 12:27:22,955 | INFO  | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2024-03-16 12:27:22,955 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2024-03-16 12:27:23,120 | INFO  | Starting Temp Data Store | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-03-16 12:27:23,120 | INFO  | PListStore:[E:\HOCKI6_2023-2024\KIEN_TRUC_VA_THIET_KE_HE_THONG\ActiveMQ\apache-activemq-6.0.1-bin\apache-activemq-6.0.1\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2024-03-16 12:27:23,120 | INFO  | Starting Job Scheduler Store | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-03-16 12:27:23,120 | INFO  | Persistence Adapter successfully started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-03-16 12:27:23,286 | INFO  | Apache ActiveMQ 6.0.1 (localhost, ID:MSI-MODERN14-49855-1710566843135-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-03-16 12:27:23,325 | INFO  | Listening for connections at: tcp://MSI-MODERN14:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2024-03-16 12:27:23,325 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2024-03-16 12:27:23,326 | INFO  | Listening for connections at: amqp://MSI-MODERN14:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2024-03-16 12:27:23,326 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2024-03-16 12:27:23,338 | INFO  | Listening for connections at: stomp://MSI-MODERN14:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2024-03-16 12:27:23,339 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2024-03-16 12:27:23,345 | INFO  | Listening for connections at: mqtt://MSI-MODERN14:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2024-03-16 12:27:23,345 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2024-03-16 12:27:23,352 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2024-03-16 12:27:23,456 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2024-03-16 12:27:23,626 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@5900ff01{/,null,STARTING} has uncovered HTTP methods for the following paths: [/] | org.eclipse.jetty.security.SecurityHandler | WrapperSimpleAppMain
+2024-03-16 12:27:23,711 | INFO  | Listening for connections at ws://MSI-MODERN14:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2024-03-16 12:27:23,711 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2024-03-16 12:27:23,711 | INFO  | Apache ActiveMQ 6.0.1 (localhost, ID:MSI-MODERN14-49855-1710566843135-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-03-16 12:27:23,711 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-03-16 12:27:23,728 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: E:\HOCKI6_2023-2024\KIEN_TRUC_VA_THIET_KE_HE_THONG\ActiveMQ\apache-activemq-6.0.1-bin\apache-activemq-6.0.1\bin\win64\..\..\data\kahadb only has 29761 mb of usable space. - resetting to maximum available disk space: 29761 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-03-16 12:27:23,731 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: E:\HOCKI6_2023-2024\KIEN_TRUC_VA_THIET_KE_HE_THONG\ActiveMQ\apache-activemq-6.0.1-bin\apache-activemq-6.0.1\bin\win64\..\..\data only has 29761 mb of usable space. - resetting to maximum available disk space: 29761 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-03-16 12:27:24,806 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2024-03-16 12:27:24,806 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2024-03-16 16:20:12,046 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[E:\HOCKI6_2023-2024\KIEN_TRUC_VA_THIET_KE_HE_THONG\ActiveMQ\apache-activemq-6.0.1-bin\apache-activemq-6.0.1\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-03-16 16:20:12,050 | INFO  | Starting Persistence Adapter: KahaDBPersistenceAdapter[E:\HOCKI6_2023-2024\KIEN_TRUC_VA_THIET_KE_HE_THONG\ActiveMQ\apache-activemq-6.0.1-bin\apache-activemq-6.0.1\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-03-16 16:20:12,074 | INFO  | Starting KahaDBStore | org.apache.activemq.store.kahadb.KahaDBStore | WrapperSimpleAppMain
+2024-03-16 16:20:12,074 | INFO  | Opening MessageDatabase | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2024-03-16 16:20:12,115 | INFO  | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2024-03-16 16:20:12,121 | INFO  | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2024-03-16 16:20:12,122 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2024-03-16 16:20:12,242 | INFO  | Starting Temp Data Store | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-03-16 16:20:12,242 | INFO  | PListStore:[E:\HOCKI6_2023-2024\KIEN_TRUC_VA_THIET_KE_HE_THONG\ActiveMQ\apache-activemq-6.0.1-bin\apache-activemq-6.0.1\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2024-03-16 16:20:12,242 | INFO  | Starting Job Scheduler Store | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-03-16 16:20:12,242 | INFO  | Persistence Adapter successfully started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-03-16 16:20:12,392 | INFO  | Apache ActiveMQ 6.0.1 (localhost, ID:MSI-MODERN14-53658-1710580812253-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-03-16 16:20:12,467 | INFO  | Listening for connections at: tcp://MSI-MODERN14:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2024-03-16 16:20:12,468 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2024-03-16 16:20:12,471 | INFO  | Listening for connections at: amqp://MSI-MODERN14:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2024-03-16 16:20:12,472 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2024-03-16 16:20:12,475 | INFO  | Listening for connections at: stomp://MSI-MODERN14:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2024-03-16 16:20:12,475 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2024-03-16 16:20:12,479 | INFO  | Listening for connections at: mqtt://MSI-MODERN14:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2024-03-16 16:20:12,479 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2024-03-16 16:20:12,484 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2024-03-16 16:20:12,544 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2024-03-16 16:20:12,734 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@3c4f9445{/,null,STARTING} has uncovered HTTP methods for the following paths: [/] | org.eclipse.jetty.security.SecurityHandler | WrapperSimpleAppMain
+2024-03-16 16:20:12,806 | INFO  | Listening for connections at ws://MSI-MODERN14:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2024-03-16 16:20:12,806 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2024-03-16 16:20:12,807 | INFO  | Apache ActiveMQ 6.0.1 (localhost, ID:MSI-MODERN14-53658-1710580812253-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-03-16 16:20:12,807 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-03-16 16:20:12,812 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: E:\HOCKI6_2023-2024\KIEN_TRUC_VA_THIET_KE_HE_THONG\ActiveMQ\apache-activemq-6.0.1-bin\apache-activemq-6.0.1\bin\win64\..\..\data\kahadb only has 29761 mb of usable space. - resetting to maximum available disk space: 29761 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-03-16 16:20:12,814 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: E:\HOCKI6_2023-2024\KIEN_TRUC_VA_THIET_KE_HE_THONG\ActiveMQ\apache-activemq-6.0.1-bin\apache-activemq-6.0.1\bin\win64\..\..\data only has 29761 mb of usable space. - resetting to maximum available disk space: 29761 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-03-16 16:20:13,831 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2024-03-16 16:20:13,832 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2024-03-16 16:21:37,940 | INFO  | Connector vm://localhost started | org.apache.activemq.broker.TransportConnector | qtp1377674795-51
