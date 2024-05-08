@@ -1,0 +1,5 @@
+rootProject.name = "LanguageDictionary_Microkernel"
+include 'TuDien'
+include 'TuDienTiengViet'
+include 'TuDienTiengAnh'
+
