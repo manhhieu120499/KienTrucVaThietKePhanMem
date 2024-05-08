@@ -1,0 +1,38 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#product_form {
+    width: 400px;
+    height: 250px;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+#product_form button {
+    width: 100px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    display: block;
+    margin: 15px auto;
+}
+
+.form_item {
+    width: 90%;
+    height: 40px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+

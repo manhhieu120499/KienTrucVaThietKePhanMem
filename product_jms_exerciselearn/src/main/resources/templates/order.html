@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Order</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/styleOrder.css}">
+</head>
+<body>
+<form id="product_form" action="/order/detailOrder">
+    <div class="form_item">
+        <label for="productName">Product name:</label>
+        <input type="text" id="productName" name="name">
+    </div>
+    <div class="form_item">
+        <label for="price">Price:</label>
+        <input type="text" id="price" name="price">
+    </div>
+    <div class="form_item">
+        <label for="quantity">Quantity:</label>
+        <input type="text" id="quantity" name="quantity">
+    </div>
+    <button type="submit">Submit</button>
+</form>
+</body>
+</html>
